@@ -24,7 +24,7 @@ const Register = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post("http://localhost:3000/api/users/register", {
+      const response = await axios.post("https://surojuapinew.vercel.app/api/users/register", {
         email,
         password,
         username,
